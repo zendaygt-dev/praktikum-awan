@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_NAME = 'zendaydev/praktikum-awan'
-        REGISTRY_CREDENTIALS = 'dockerhub-credentials'
+        REGISTRY_CREDENTIALS = 'credential-laprak1'
     }
     stages {
         stage('Checkout') {
