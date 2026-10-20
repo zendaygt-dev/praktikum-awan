@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'zendaydev/simple-app'
+        IMAGE_NAME = 'zendaydev/praktikum-awan'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
     stages {
